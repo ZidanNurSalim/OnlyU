@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Surat Cinta Untukmu</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<!-- Floating hearts background -->
+<div class="hearts" id="hearts-container"></div>
+<header>
+<h1>Untuk Kamu, Cintaku</h1>
+<p class="subtitle">Seberkas kisah tentang kita berdua</p>
+</header>
+<div class="couple-container">
+<img alt="Foto potret pasangan tampan dalam balutan warna hangat" class="couple-image" id="gambar-saya" src="img/zidan.jpg"/>
+<div class="heart-icon">❤️</div>
+<img alt="Foto potret pasangan cantik dengan senyum menawan" class="couple-image" id="gambar-kamu" src="img/ais.jpg"/>
+</div>
+<div class="love-letter">
+<div class="letter-content">
+<div class="letter-date">Hari ini <span id="tanggal-hari-ini"></span></div>
+<div class="letter-salutation">Sayangku tersayang,</div>
+<div class="letter-body">
+<p>Ketika aku mencoba menuliskan perasaanku, selalu saja kata-kata terasa kurang tepat untuk menggambarkan apa yang ada di hatiku.Karna aku ngga terlalu pandai buat ngerangkai kata kata .</p>
+<p>Aku bersyukur untuk setiap detik yang kita habiskan bersama, setiap tawa yang kita bagi, bahkan setiap air mata yang kadang kita lewati. Kamu telah mengajarkan aku arti cinta yang sesungguhnya - bukan hanya perasaan bahagia, tetapi komitmen untuk saling mendukung dan tumbuh bersama.</p>
+<p>Maaf yang kadang sifat dan sikap aku belum memenuhi ekspetasi kamu dan maaf juga aku udah bikin kamu kesel</p>
+<p>Sekali lagi aku bener bener minta maaf, Tapi kejadian kemarin kaya ngebuka mata aku jadi bisa ngeliat lagi </p>
+<p>Maaf kalo jelek yaa, Semoga kamu suka</p>
+<p>Surat kecil ini adalah janjiku padamu bahwa aku akan selalu berusaha menjadi yang terbaik untuk kita. Aku berjanji untuk terus belajar mencintaimu dengan lebih baik setiap harinya, dalam berbagai bentuk yang mungkin tidak selalu sempurna.</p>
+</div>
+<div class="letter-closing">Love</div>
+<div class="letter-signature" id="nama-pasangan">From Zidan</div>
+</div>
+</div>
+<div class="love-meter">
+<div class="meter-title">Seberapa Besar Cinta Kita?</div>
+<div class="meter-container">
+<div class="meter-bar" id="love-meter-bar">
+<span class="meter-value">100%</span>
+</div>
+</div>
+<div class="love-count" id="love-percentage">100%</div>
+<button class="couple-button" id="update-love-btn">Update Cinta Kita</button>
+</div>
+<div class="timeline">
+<h2 style="text-align: center; margin-bottom: 2rem; color: var(--primary); font-family: 'Dancing Script', cursive;">Perjalanan Kita</h2>
+<div class="timeline-item left">
+<div class="timeline-content">
+<h3>Pertemuan Pertama</h3>
+<img alt="Ilustrasi dua orang bertemu pertama kali di kafe yang teduh dengan cahaya hangat" src="img/sschat.jpg" style="width: 100%; border-radius: 8px; margin: 10px 0;"/>
+<p>Momen ketika kita pertama kali chat dan ternyata kita sefrekuensi.</p>
+<div class="memory-date">3 Juni 2024</div>
+</div>
+</div>
+<div class="timeline-item right">
+<div class="timeline-content">
+<h3>Kencan Pertama</h3>
+<img alt="Ilustrasi pasangan makan malam pertama kali di restoran dengan lilin romantis" src="img/berdua.jpg" style="width: 100%; border-radius: 8px; margin: 10px 0;"/>
+<p>Saat kita akhirnya memutuskan untuk pergi bersama untuk nonton pertama kali nya dan di saat itu kita udah jadian.</p>
+<div class="memory-date">23 Juli 2024</div>
+</div>
+</div>
+<div class="timeline-item left">
+<div class="timeline-content">
+<h3>Kencan Kedua</h3>
+<img alt="Pasangan berpegangan tangan dengan latar belakang matahari terbenam di pantai" src="img/cgv.jpg" style="width: 100%; border-radius: 8px; margin: 10px 0;"/>
+<p>Ini momen kedua atau ketiga kali nya kita ke cgv, karna saking pengen nya kita hug, Maaf fotonya adanya di hp yang lama jadi aku cuma bisa ss hehehe.</p>
+<div class="memory-date">24 September 2024</div>
+</div>
+</div>
+<div class="timeline-item right">
+<div class="timeline-content">
+<h3>Liburan Pertama</h3>
+<img alt="Pasangan berfoto bersama di depan landmark terkenal dengan wajah gembira" src="img/kita.jpg" style="width: 100%; border-radius: 8px; margin: 10px 0;"/>
+<p>Pengalaman pertama kali aku diajak jalan jalan bareng sama keluarga kamu.</p>
+<div class="memory-date">27 Januari 2025</div>
+</div>
+</div>
+</div>
+<div class="memories" id="memory-grid">
+<div class="memory-card">
+<img alt="Pasangan sedang tertawa bersama di taman bunga berwarna-warni" class="memory-image" src="img/bigland.jpg"/>
+<div class="memory-details">
+<div class="memory-date">29 Juni 2025</div>
+<div class="memory-title">Hari Di Hotel Bigland</div>
+<div class="memory-description">Hari Dimana Kita Pertama Kali Ke Bogor.</div>
+</div>
+</div>
+<div class="memory-card">
+<img alt="Pasangan memasak bersama di dapur kecil yang penuh warna" class="memory-image" src="img/masjid.jpg"/>
+<div class="memory-details">
+<div class="memory-date">30 Juni 2025</div>
+<div class="memory-title">First Time Naik Motor Kepuncak</div>
+<div class="memory-description">Hari ketika kita pertama kali kena macet,kedinginan,kecapean. tapi semua kebayar sampe di atas.</div>
+</div>
+</div>
+<div class="memory-card">
+<img alt="Pasangan melihat film sambil berselimut dengan latte dan popcorn di meja" class="memory-image" src="img/saung.jpg"/>
+<div class="memory-details">
+<div class="memory-date">8 Juli 2025</div>
+<div class="memory-title">H+1 Setelah kita Anniversary</div>
+<div class="memory-description">Kita menghabiskan Hari Buat Berenang Di ocean park, Pulang nya makan di Oma Saung .</div>
+</div>
+</div>
+</div>
+<div style="text-align: center; margin: 2rem 0;">
+<button class="couple-button" id="add-memory-btn">Tambah Kenangan Kita</button>
+<button class="couple-button" id="personalize-btn">Personalize Website Ini</button>
+</div>
+<div class="modal" id="memory-modal">
+<div class="modal-content">
+<span class="close-modal" id="close-memory-modal">×</span>
+<h2>Tambah Kenangan Baru</h2>
+<div style="margin: 1rem 0;">
+<label for="memory-date">Tanggal:</label>
+<input id="memory-date" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;" type="date"/>
+</div>
+<div style="margin: 1rem 0;">
+<label for="memory-title">Judul Kenangan:</label>
+<input id="memory-title" placeholder="Contoh: Liburan ke Bali" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;" type="text"/>
+</div>
+<div style="margin: 1rem 0;">
+<label for="memory-desc">Deskripsi:</label>
+<textarea id="memory-desc" placeholder="Ceritakan tentang kenangan ini..." rows="4" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;"></textarea>
+</div>
+<div style="margin: 1rem 0;">
+<label for="memory-img">URL Gambar:</label>
+<input id="memory-img" placeholder="Masukkan URL gambar" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;" type="text" value="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b35d4f7c-ff0f-4538-84eb-13fd0c35f778.png"/>
+</div>
+<button class="couple-button" id="save-memory-btn">Simpan Kenangan</button>
+</div>
+</div>
+<div class="modal" id="personalize-modal">
+<div class="modal-content">
+<span class="close-modal" id="close-personalize-modal">×</span>
+<h2>Personalize Website Kita</h2>
+<div style="margin: 1rem 0;">
+<label for="your-img">Foto Kamu:</label>
+<input id="your-img" placeholder="Masukkan URL foto kamu" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;" type="text" value="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/482d93f3-d4ee-426c-8ecc-114a0111d724.png"/>
+</div>
+<div style="margin: 1rem 0;">
+<label for="partner-img">Foto Pasanganmu:</label>
+<input id="partner-img" placeholder="Masukkan URL foto pasangan kamu" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;" type="text" value="https://placehold.co/300x300"/>
+</div>
+<div style="margin: 1rem 0;">
+<label for="your-name">Nama Kamu:</label>
+<input id="your-name" placeholder="Nama kamu" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;" type="text" value="Teman hidupmu"/>
+</div>
+<div style="margin: 1rem 0;">
+<label for="couple-name">Nama Kamu Berdua:</label>
+<input id="couple-name" placeholder="Contoh: Rina &amp; Budi" style="padding: 0.5rem; width: 100%; margin: 0.5rem 0;" type="text"/>
+</div>
+<button class="couple-button" id="save-personalize-btn">Simpan Perubahan</button>
+</div>
+</div>
+<footer>
+<p>Dibuat dengan <span class="footer-heart">❤️</span> untuk kita berdua</p>
+<p>© <span id="tahun-sekarang"></span> Kisah Cinta Kita</p>
+</footer>
+
+<script src="script.js"></script></body>
+</html>
+
+```
+
+ --- End of CSV data ---
